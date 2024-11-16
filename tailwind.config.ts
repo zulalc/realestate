@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ["Poppins", "Arial", "Helvetica", "sans-serif"], // Add your custom font here
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
